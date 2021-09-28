@@ -1,0 +1,16 @@
+.card {
+    width: 30%;
+    margin: 20px auto;
+    box-shadow: 1px 1px thistle;
+    background-color: #ccc;
+    min-height: 100px;
+}
+.card p {
+    padding: 10px 20px;
+    text-align: start;
+}
+.value {
+    font-size: 24px;
+    color: tomato;
+    text-align: center;
+}
