@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Redirect } from "react-router-dom";
+import { Route } from "react-router-dom";
 import Error from './assets/components/error';
 
 const AdminGuard = ({ component: Component, hasPermission, ...rest }) => (

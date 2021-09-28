@@ -7,19 +7,11 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import logo from "./shared/assets/wubba-lubba-dub-dub.png"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  Redirect
-} from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 import Home from './modules/home/home';
-import Post from './modules/post/post';
 import { Menu, MenuItem, Divider } from '@material-ui/core';
 import StarWars from './modules/starWars/starWars';
 import Posts from './modules/post/posts';
-import AuthGuard from './shared/authGuard';
 import Error from './shared/assets/components/error';
 import Admin from './modules/admin/admin';
 import AdminGuard from './shared/adminGuard';

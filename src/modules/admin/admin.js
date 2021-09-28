@@ -1,4 +1,4 @@
-import { Card, CardMedia, Typography } from "@material-ui/core";
+import { Card, Typography } from "@material-ui/core";
 import React from "react";
 
 export default function Admin() {
