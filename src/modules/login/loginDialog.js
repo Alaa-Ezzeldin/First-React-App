@@ -13,7 +13,6 @@ export default function LoginDialog(props) {
     const styles = useStyles();
 
     function submitForm(value) {
-        console.log('valuuee', value)
         props.handleDialogAction(value);
     }
     const initialValues = {

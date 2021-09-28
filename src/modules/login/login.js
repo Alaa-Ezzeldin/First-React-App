@@ -24,8 +24,6 @@ export default function LoginControl(props) {
     });
 
     function submitForm(values) {
-        console.log("form values >>", values)
-        console.log("props", props)
         if (values.email === "admin@test.com" && values.password === "1111") {
             cookieHandler.setUserDataFromCookies({ authenticated: true, email: values.email });
             props.logInAction();
